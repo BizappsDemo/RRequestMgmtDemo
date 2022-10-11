@@ -1,0 +1,101 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pv_jobcadres",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pv_jobcadre",
+    "MaxGetRowsCount": 500,
+    "Name": "Job Cadre",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "pv_jobcadre_AsyncOperations": "System Jobs",
+      "pv_jobcadre_BulkDeleteFailures": "Bulk Delete Failures",
+      "pv_jobcadre_DuplicateBaseRecord": "Duplicate Records (pv_jobcadre_DuplicateBaseRecord)",
+      "pv_jobcadre_DuplicateMatchingRecord": "Duplicate Records (pv_jobcadre_DuplicateMatchingRecord)",
+      "pv_jobcadre_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "pv_jobcadre_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "pv_jobcadre_ProcessSession": "Process Sessions",
+      "pv_jobcadre_SyncErrors": "Sync Errors",
+      "pv_jobcadreid": "Job Cadre",
+      "pv_jobcadrename": "Job Cadre Name",
+      "pv_jobfamily": "Job Family",
+      "pv_pv_jobcadre_crbcd_resourcerequest_job": "Resource Requests",
+      "pv_pv_jobcadre_pv_jobgrade_jobcadre": "Job Grade (pv_pv_jobcadre_pv_jobgrade_jobcadre)",
+      "pv_pv_jobgrade_pv_jobcadre": "Job Grade (pv_pv_jobgrade_pv_jobcadre)",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Job Cadre",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Job Cadre (Views)",
+    "Name": "_pv_jobcadre_views",
+    "RelatedEntityName": "Job Cadre",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0741e497-edf9-43b3-8eab-b10f39c4cc2f": "Job Cadre Advanced Find View",
+      "825e5101-d34b-47be-acaa-b8a40446c040": "Active Job Cadre",
+      "9abb1c03-4e84-4519-a67f-e65e5aad9d63": "Job Cadre Lookup View",
+      "a50f8c17-cffd-4fab-a542-f61995517948": "Job Cadre Associated View",
+      "e086bf68-3be7-4eae-a8d2-951b6bd03716": "Inactive Job Cadre"
+    }
+  },
+  {
+    "DisplayName": "Status (Job Cadre)",
+    "Name": "pv_jobcadre_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Job Cadre"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Job Cadre",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Job Cadre)",
+    "Name": "pv_jobcadre_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Job Cadre"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Job Cadre",
+    "Type": "OptionSetInfo"
+  }
+]

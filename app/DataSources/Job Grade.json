@@ -1,0 +1,102 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pv_jobgrades",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pv_jobgrade",
+    "MaxGetRowsCount": 500,
+    "Name": "Job Grade",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "pv_careertrack": "Career Track",
+      "pv_grade": "Grade",
+      "pv_jobcadre_pv_jobcadre": "Job Cadre (pv_jobcadre_pv_jobcadre)",
+      "pv_jobgrade_AsyncOperations": "System Jobs",
+      "pv_jobgrade_BulkDeleteFailures": "Bulk Delete Failures",
+      "pv_jobgrade_DuplicateBaseRecord": "Duplicate Records (pv_jobgrade_DuplicateBaseRecord)",
+      "pv_jobgrade_DuplicateMatchingRecord": "Duplicate Records (pv_jobgrade_DuplicateMatchingRecord)",
+      "pv_jobgrade_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "pv_jobgrade_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "pv_jobgrade_ProcessSession": "Process Sessions",
+      "pv_jobgrade_SyncErrors": "Sync Errors",
+      "pv_jobgradeid": "Job Grade",
+      "pv_pv_jobgrade_crbcd_resourcerequest_grade": "Resource Requests",
+      "pv_pv_jobgrade_pv_jobcadre": "Job Cadre (pv_pv_jobgrade_pv_jobcadre)",
+      "pv_pv_jobgrade_pv_resourcemasterstructure_JobCadre": "Resource Master Structures",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Job Grade",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Job Grade (Views)",
+    "Name": "_pv_jobgrade_views",
+    "RelatedEntityName": "Job Grade",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "31d349aa-24e8-47cc-9f6e-043277269394": "Job Grade Lookup View",
+      "383085f4-457b-47e6-b2b2-d920eb3eaf86": "Job Grade Associated View",
+      "56f17156-bc50-40ea-9956-6c47393db173": "Job Grade Advanced Find View",
+      "ab3d9716-e654-44d1-9cb2-8c208ce90cff": "Active Job Grade",
+      "ac5327d5-60cc-427f-abfd-e2ef9ba85324": "Inactive Job Grade"
+    }
+  },
+  {
+    "DisplayName": "Status (Job Grade)",
+    "Name": "pv_jobgrade_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Job Grade"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Job Grade",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Job Grade)",
+    "Name": "pv_jobgrade_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Job Grade"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Job Grade",
+    "Type": "OptionSetInfo"
+  }
+]

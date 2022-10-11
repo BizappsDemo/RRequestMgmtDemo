@@ -1,0 +1,120 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_pv_leafskillmaster_forms",
+      "Namespace": "Leaf Skill Masters (Forms)",
+      "Values": {
+        "Information": "17667a71-02ce-428a-8a88-d01f591bdc9d"
+      }
+    },
+    {
+      "Kind": "default.cds_pv_skillcluster_forms",
+      "Namespace": "Skill Clusters (Forms)",
+      "Values": {
+        "Information": "427672db-d777-40fc-9954-97cb5a460ff4"
+      }
+    },
+    {
+      "Kind": "default.cds_crbcd_leaf_skills_masterstructure_forms",
+      "Namespace": "Leaf_Skills_Master structures (Forms)",
+      "Values": {
+        "Information": "21a35173-70f6-41c4-ad00-70049de85c7f"
+      }
+    },
+    {
+      "Kind": "default.cds_pv_skillfamily_forms",
+      "Namespace": "Skill Families (Forms)",
+      "Values": {
+        "Information": "7667fbaa-aef7-47f3-93bb-7636495f9ba2"
+      }
+    },
+    {
+      "Kind": "default.cds_crbcd_createrr_forms",
+      "Namespace": "Create RRS (Forms)",
+      "Values": {
+        "Information": "2bf02ec2-c979-4da1-ab4c-e6098ed45027"
+      }
+    },
+    {
+      "Kind": "default.cds_pv_projectmaster_forms",
+      "Namespace": "Project Masters (Forms)",
+      "Values": {
+        "Information": "45d59644-08bf-4cb2-b0e4-51a691f289d0"
+      }
+    },
+    {
+      "Kind": "default.cds_crbcd_resourcerequest_forms",
+      "Namespace": "Resource Requests (Forms)",
+      "Values": {
+        "Information": "1527602a-fcc5-45bc-a9b5-6bc01e84846f"
+      }
+    },
+    {
+      "Kind": "default.cds_pv_jobcadre_forms",
+      "Namespace": "Job Cadre (Forms)",
+      "Values": {
+        "Information": "ba466f3c-33a6-42d6-bddb-4d5907929ceb"
+      }
+    },
+    {
+      "Kind": "default.cds_systemuser_forms",
+      "Namespace": "Users (Forms)",
+      "Values": {
+        "Application User": "d26924ef-4d80-46f7-ab1d-e6ae80a54ce8",
+        "Information": "094fb08a-77bb-49e0-b7ea-8dbddfd01294",
+        "User": "c2cd9e55-d4b4-4b55-9951-16ead79643e5",
+        "User form – Business": "c2413504-7eb2-4c59-a087-95d819866114",
+        "User Hierarchy Tile Form": "c68d6c09-d7a7-4959-8d0f-44b8cff9b452"
+      }
+    },
+    {
+      "Kind": "default.cds_pv_location_forms",
+      "Namespace": "Locations (Forms)",
+      "Values": {
+        "Information": "46614bfb-99be-41c7-90b1-c40cc9812992"
+      }
+    },
+    {
+      "Kind": "default.cds_pv_jobskillcluster_forms",
+      "Namespace": "Job Skill Clusters (Forms)",
+      "Values": {
+        "Information": "b41fd612-7e7e-4aff-a51a-c9b7093fee06"
+      }
+    },
+    {
+      "Kind": "default.cds_pv_locationmaster_forms",
+      "Namespace": "Location Masters (Forms)",
+      "Values": {
+        "Information": "589d2c83-8d3f-41c7-8674-77dee7d69a8f"
+      }
+    },
+    {
+      "Kind": "default.cds_pv_jobgrade_forms",
+      "Namespace": "Job Grade (Forms)",
+      "Values": {
+        "Information": "a00eebda-6926-4d9c-b47d-8c21300f39ec"
+      }
+    },
+    {
+      "Kind": "default.cds_pv_proposals_forms",
+      "Namespace": "Proposal (Forms)",
+      "Values": {
+        "Information": "67148aaf-86df-4753-b138-bd9dffb50951"
+      }
+    },
+    {
+      "Kind": "default.cds_transactioncurrency_forms",
+      "Namespace": "Currencies (Forms)",
+      "Values": {
+        "Information": "b56b6d35-1e69-436b-ba86-78127d36e8aa"
+      }
+    },
+    {
+      "Kind": "default.cds_pv_proposal_forms",
+      "Namespace": "Proposals (Forms)",
+      "Values": {
+        "Information": "932761ac-aa00-4f91-b20f-a91aca252e0d"
+      }
+    }
+  ]
+}

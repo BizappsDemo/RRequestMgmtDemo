@@ -1,0 +1,142 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pv_proposals",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pv_proposal",
+    "MaxGetRowsCount": 500,
+    "Name": "Proposals",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "pv_ageing": "Ageing",
+      "pv_approvalstatus": "Approval Status",
+      "pv_bookingbu": "Booking_BU",
+      "pv_cadre": "Cadre",
+      "pv_customername": "customer name",
+      "pv_deliverybu": "Delivery BU",
+      "pv_jobskillcluster": "Job - Skill Cluster",
+      "pv_location": "Location",
+      "pv_modifiedby": "ModifiedBy",
+      "pv_modifieddate": "ModifiedDate",
+      "pv_opportunity_id": "opportunity_id",
+      "pv_opportunityname": "OPPORTUNITY NAME",
+      "pv_opportunitystatus": "opportunity status",
+      "pv_opportunitytype": "Opportunity Type",
+      "pv_oppty_end_date": "oppty end date",
+      "pv_opptystartdate": "oppty start date",
+      "pv_practice": "Practice",
+      "pv_probability": "PROBABILITY",
+      "pv_proposal_AsyncOperations": "System Jobs",
+      "pv_proposal_BulkDeleteFailures": "Bulk Delete Failures",
+      "pv_proposal_DuplicateBaseRecord": "Duplicate Records (pv_proposal_DuplicateBaseRecord)",
+      "pv_proposal_DuplicateMatchingRecord": "Duplicate Records (pv_proposal_DuplicateMatchingRecord)",
+      "pv_proposal_id": "Proposal ID",
+      "pv_proposal_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "pv_proposal_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "pv_proposal_ProcessSession": "Process Sessions",
+      "pv_proposal_start_date": "proposal start date",
+      "pv_proposal_SyncErrors": "Sync Errors",
+      "pv_proposalenddate": "proposal end date",
+      "pv_proposalid": "Proposal",
+      "pv_psno": "PS No",
+      "pv_ResourceName": "Resource Name",
+      "pv_ResourceRequest": "Resource Request",
+      "pv_sbu": "sbu",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Proposals",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Proposals (Views)",
+    "Name": "_pv_proposal_views",
+    "RelatedEntityName": "Proposals",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "13529552-bee0-4377-8f73-92508766e6a7": "Proposal Associated View",
+      "38afd6df-e06a-4d0f-be4f-7b5337014e1f": "Proposal Advanced Find View",
+      "61da8e36-d8eb-4944-861e-6d3cd24fedb7": "Proposal Lookup View",
+      "784ff74c-515d-4db9-980f-3ec5d97f4632": "Inactive Proposals",
+      "b47cc7a1-e767-4bfb-bed0-2e6eecf6fdeb": "Active Proposals"
+    }
+  },
+  {
+    "DisplayName": "Approval Status (Proposals)",
+    "Name": "pv_proposal_pv_approvalstatus",
+    "OptionSetInfoNameMapping": {
+      "1": "Proposed",
+      "2": "Accepted",
+      "3": "Rejected"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pv_approvalstatus",
+        "OptionSetReferenceEntityName": "Proposals"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "pv_approvalstatus",
+    "RelatedEntityName": "Proposals",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Proposals)",
+    "Name": "pv_proposal_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Proposals"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Proposals",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Proposals)",
+    "Name": "pv_proposal_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Proposals"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Proposals",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crbcd_leaf_skills_masterstructures",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crbcd_leaf_skills_masterstructure",
+    "MaxGetRowsCount": 500,
+    "Name": "Leaf_Skills_Master structures",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crbcd_column_name": "Column_name",
+      "crbcd_computed": "Computed",
+      "crbcd_leaf_skills_masterstructure_AsyncOperations": "System Jobs",
+      "crbcd_leaf_skills_masterstructure_BulkDeleteFailures": "Bulk Delete Failures",
+      "crbcd_leaf_skills_masterstructure_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crbcd_leaf_skills_masterstructure_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crbcd_leaf_skills_masterstructure_ProcessSession": "Process Sessions",
+      "crbcd_leaf_skills_masterstructure_SyncErrors": "Sync Errors",
+      "crbcd_leaf_skills_masterstructureid": "Leaf_Skills_Master structure",
+      "crbcd_length": "Length",
+      "crbcd_name": "Name",
+      "crbcd_type": "Type",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Leaf_Skills_Master structures",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Leaf_Skills_Master structures (Views)",
+    "Name": "_crbcd_leaf_skills_masterstructure_views",
+    "RelatedEntityName": "Leaf_Skills_Master structures",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0034e7fe-b486-4390-85e3-cc503e3360dd": "Inactive Leaf_Skills_Master structures",
+      "04968802-d50a-400c-af5e-38d05650996e": "Leaf_Skills_Master structure Advanced Find View",
+      "06fe90a7-4b67-4075-a73c-21818760e69e": "Leaf_Skills_Master structure Associated View",
+      "1897860f-8d3f-4504-8062-99db0b9b42c0": "Leaf_Skills_Master structure Lookup View",
+      "fb3366ed-4d60-4116-ab1c-300944d89fed": "Active Leaf_Skills_Master structures"
+    }
+  },
+  {
+    "DisplayName": "Status (Leaf_Skills_Master structures)",
+    "Name": "crbcd_leaf_skills_masterstructure_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Leaf_Skills_Master structures"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Leaf_Skills_Master structures",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Leaf_Skills_Master structures)",
+    "Name": "crbcd_leaf_skills_masterstructure_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Leaf_Skills_Master structures"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Leaf_Skills_Master structures",
+    "Type": "OptionSetInfo"
+  }
+]

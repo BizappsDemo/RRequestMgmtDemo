@@ -1,0 +1,530 @@
+"'Create RR Home' As screen":
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+
+    "'Create RR' As label":
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =1
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =60
+        PaddingRight: =5.67
+        PaddingTop: =5.67
+        Size: =22.94
+        Text: ="Create RR"
+        Width: =1548.13
+        X: =0.00
+        Y: =92
+        ZIndex: =5
+
+    Group1_12 As group:
+        Height: =5
+        Width: =5
+        X: =1
+        Y: =20
+        ZIndex: =36
+
+        "'User Image_10' As image":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =1
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =73
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: |-
+                ="https://img.freepik.com/premium-photo/portrait-happy-professional-man-with-smiling-face-formal-suit-isolated-white-guy_545934-2721.jpg?w=900"
+            PaddingRight: =0.00
+            PaddingTop: =0.00
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            RadiusBottomLeft: =50
+            RadiusBottomRight: =50
+            RadiusTopLeft: =50
+            RadiusTopRight: =50
+            Tooltip: |-
+                ="https://ifulfilldev.azurewebsites.net/app/images/ifullfill.png"
+            Width: =275.88
+            X: =1821.48
+            ZIndex: =31
+
+        "'Company Logo_10' As image":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =73
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: |-
+                ="https://ifulfilldev.azurewebsites.net/app/images/myLTI-logo.png"
+            PaddingLeft: =20
+            PaddingRight: =0.00
+            PaddingTop: =0.00
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: |-
+                ="https://ifulfilldev.azurewebsites.net/app/images/ifullfill.png"
+            Width: =183.28
+            X: =0.00
+            ZIndex: =32
+
+        "'Logo Image_10' As image":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =73
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: |-
+                ="https://ifulfilldev.azurewebsites.net/app/images/ifullfill.png"
+            PaddingRight: =0.00
+            PaddingTop: =0.00
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: |-
+                ="https://ifulfilldev.azurewebsites.net/app/images/ifullfill.png"
+            Width: =183.28
+            X: =183.28
+            ZIndex: =33
+
+        "'User Name_10' As label":
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =55
+            PaddingRight: =7.65
+            PaddingTop: =7.65
+            Size: =19.89
+            Text: =User().FullName
+            Tooltip: |-
+                ="https://ifulfilldev.azurewebsites.net/app/images/ifullfill.png"
+            Width: =275.88
+            X: =2046.32
+            ZIndex: =34
+
+        Icon4_11 As icon.Hamburger:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(0, 120, 212, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =40
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Hamburger
+            OnSelect: =Set(MenuIcon, !MenuIcon)
+            PaddingRight: =0.00
+            PaddingTop: =0.00
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =68.00
+            X: =368.46
+            Y: =15
+            ZIndex: =35
+
+    Group1_6 As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =43
+
+        Rectangle4_8 As rectangle:
+            BorderColor: =RGBA(102, 174, 229, 1)
+            BorderThickness: =1
+            DisabledFill: =RGBA(204, 228, 246, 1)
+            Fill: =RGBA(204, 228, 246, 1)
+            FocusedBorderThickness: =4
+            Height: =703
+            HoverFill: =RGBA(204, 228, 246, 1)
+            PressedFill: =RGBA(204, 228, 246, 1)
+            Visible: =MenuIcon
+            Width: =426.70
+            X: =0.00
+            Y: =65
+            ZIndex: =36
+
+        Icon2_8 As icon.RadarActivityMonitor:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(0, 120, 212, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =59
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.RadarActivityMonitor
+            PaddingRight: =0.00
+            PaddingTop: =0.00
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: =MenuIcon
+            Width: =74.80
+            X: =0.00
+            Y: =90
+            ZIndex: =37
+
+        Button3_26 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(0, 120, 212, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =51
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+            OnSelect: =Navigate(Dashboard);Set(MenuIcon,false)
+            PaddingRight: =8.50
+            PaddingTop: =8.50
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =22.10
+            Text: ="Dashboard"
+            Visible: =MenuIcon
+            Width: =255.00
+            X: =112.20
+            Y: =90
+            ZIndex: =38
+
+        Icon3_8 As icon.DocumentwithContent:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(0, 120, 212, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =59
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Publish
+            PaddingRight: =0.00
+            PaddingTop: =0.00
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: =MenuIcon
+            Width: =74.80
+            X: =0.00
+            Y: =188
+            ZIndex: =39
+
+        Button3_25 As button:
+            Align: =Align.Left
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(0, 120, 212, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =51
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+            OnSelect: =Navigate('Create RR Home');Set(MenuIcon,false)
+            PaddingRight: =8.50
+            PaddingTop: =8.50
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =22.10
+            Text: ="Create Resource Request"
+            Visible: =MenuIcon
+            Width: =255.00
+            X: =112.20
+            Y: =188
+            ZIndex: =40
+
+        Button3_24 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(0, 120, 212, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =51
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(0, 120, 212, 1), -10%)
+            OnSelect: =Navigate('View RR');Set(MenuIcon,false);Set(ProposalList,false);
+            PaddingRight: =8.50
+            PaddingTop: =8.50
+            PressedBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -50%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =22.10
+            Text: ="View RR"
+            Visible: =MenuIcon
+            Width: =255.00
+            X: =112.20
+            Y: =281
+            ZIndex: =41
+
+        Icon5_9 As icon.DetailList:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(0, 120, 212, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =59
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.DetailList
+            PaddingRight: =0.00
+            PaddingTop: =0.00
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: =MenuIcon
+            Width: =61.20
+            X: =0.00
+            Y: =281
+            ZIndex: =42
+
+    Group4 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =43
+
+        Radio1 As radio:
+            BorderColor: =RGBA(51, 51, 51, 1)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            Default: ="Billable"
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =240
+            HoverColor: =RGBA(51, 51, 51, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Items: =["Billable","Non-Billable"]
+            Layout: =Layout.Horizontal
+            PaddingBottom: =5
+            PaddingLeft: =20
+            PaddingRight: =0.00
+            PaddingTop: =7.65
+            PressedColor: =RGBA(51, 51, 51, 1)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            RadioBorderColor: =RGBA(51, 51, 51, 1)
+            RadioSelectionFill: =RGBA(0, 120, 212, 1)
+            Size: =19.89
+            Width: =1044
+            Y: =264
+            ZIndex: =6
+
+        "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+            BorderStyle: =BorderStyle.Dotted
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =946
+            Items: =Search('Project Masters',TextInput1.Text, "pv_projectid","pv_deliveryunit","pv_practiceunit")
+            Layout: =Layout.Vertical
+            TemplatePadding: =0
+            TemplateSize: =102
+            Width: =2015
+            X: =1385
+            Y: =554
+            ZIndex: =16
+
+            Image2 As image:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =128
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Image: =
+                OnSelect: =Select(Parent)
+                PaddingRight: =0.00
+                PaddingTop: =0.00
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                Width: =195.77
+                X: =0.00
+                Y: =16
+                ZIndex: =1
+
+            Title2 As label:
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Segoe UI'
+                Height: =Self.Size * 1.8
+                OnSelect: =Select(Parent)
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0.00
+                PaddingTop: =0.00
+                Size: =22
+                Text: =ThisItem.'Project ID'
+                VerticalAlign: =VerticalAlign.Top
+                Width: =461.90
+                X: =84.12
+                Y: =16
+                ZIndex: =2
+
+            Subtitle2 As label:
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Segoe UI'
+                Height: =60.599999999999994
+                OnSelect: =Select(Parent)
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0.00
+                PaddingTop: =0.00
+                Size: =22
+                Text: =ThisItem.'Practice Unit'
+                VerticalAlign: =VerticalAlign.Top
+                Width: =461.90
+                X: =84.12
+                Y: =Title2.Y + Title2.Height + 4
+                ZIndex: =3
+
+            NextArrow2 As icon.ChevronRight:
+                AccessibleLabel: =Self.Tooltip
+                BorderColor: =RGBA(166, 166, 166, 1)
+                Color: =RGBA(0, 120, 212, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(220, 220, 220, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =60
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Icon: =Icon.ChevronRight
+                OnSelect: =ResetForm(Form1);ResetForm(Form1_1);ResetForm(Form2);Navigate('Resource Request');
+                PaddingBottom: =10
+                PaddingLeft: =10
+                PaddingRight: =15.30
+                PaddingTop: =15.30
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                TabIndex: =0
+                Tooltip: ="View item details"
+                Width: =91.77
+                X: =686.73
+                Y: =16
+                ZIndex: =4
+
+            Separator2 As rectangle:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Fill: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+                Height: =1
+                OnSelect: =Select(Parent)
+                Width: =816.76
+                X: =0.00
+                Y: =Parent.TemplateHeight - 1
+                ZIndex: =5
+
+        TextInput1 As text:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            Default: ="Enter Project ID"
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =149
+            HintText: ="Enter Project ID"
+            HoverBorderColor: =ColorFade(RGBA(0, 120, 212, 1), -30%)
+            HoverColor: =RGBA(51, 51, 51, 1)
+            HoverFill: =RGBA(255, 255, 255, 1)
+            PaddingRight: =7.65
+            PaddingTop: =7.65
+            PressedBorderColor: =RGBA(0, 120, 212, 1)
+            PressedColor: =RGBA(51, 51, 51, 1)
+            PressedFill: =RGBA(255, 255, 255, 1)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =19.89
+            Width: =925
+            X: =57
+            Y: =580
+            ZIndex: =17
+
+        Radio1_1 As radio:
+            BorderColor: =RGBA(51, 51, 51, 1)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            Default: ="Other Projects"
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =220
+            HoverColor: =RGBA(51, 51, 51, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Items: =["My Projects","Other Projects"]
+            Layout: =Layout.Horizontal
+            PaddingBottom: =5
+            PaddingLeft: =20
+            PaddingRight: =0.00
+            PaddingTop: =7.65
+            PressedColor: =RGBA(51, 51, 51, 1)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            RadioBorderColor: =RGBA(51, 51, 51, 1)
+            RadioSelectionFill: =RGBA(0, 120, 212, 1)
+            Size: =19.89
+            Width: =1422
+            Y: =443
+            ZIndex: =18
+

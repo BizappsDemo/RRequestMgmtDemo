@@ -1,0 +1,99 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crbcd_createrrs",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crbcd_createrr",
+    "MaxGetRowsCount": 500,
+    "Name": "Create RRS",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crbcd_createrr_AsyncOperations": "System Jobs",
+      "crbcd_createrr_BulkDeleteFailures": "Bulk Delete Failures",
+      "crbcd_createrr_DuplicateBaseRecord": "Duplicate Records (crbcd_createrr_DuplicateBaseRecord)",
+      "crbcd_createrr_DuplicateMatchingRecord": "Duplicate Records (crbcd_createrr_DuplicateMatchingRecord)",
+      "crbcd_createrr_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crbcd_createrr_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crbcd_createrr_ProcessSession": "Process Sessions",
+      "crbcd_createrr_SyncErrors": "Sync Errors",
+      "crbcd_createrrid": "Create RR",
+      "crbcd_leafskilldetails": "LeafSkillDetails",
+      "crbcd_name": "Name",
+      "crbcd_skillclustername": "SkillClusterName",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Create RRS",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Create RRS (Views)",
+    "Name": "_crbcd_createrr_views",
+    "RelatedEntityName": "Create RRS",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "5f058b28-1f3f-4fab-b651-1b3c8103a361": "Active Create RRS",
+      "98dfb196-9f51-4b7f-bfcb-daee93888f55": "Create RR Lookup View",
+      "e70742f9-f594-4fd4-af88-1f437705eda7": "Create RR Associated View",
+      "f424c608-0152-42b2-b6a1-18e24b17dbab": "Inactive Create RRS",
+      "fbc0bf62-26c0-43f7-931e-e3e6135ff131": "Create RR Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (Create RRS)",
+    "Name": "crbcd_createrr_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Create RRS"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Create RRS",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Create RRS)",
+    "Name": "crbcd_createrr_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Create RRS"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Create RRS",
+    "Type": "OptionSetInfo"
+  }
+]

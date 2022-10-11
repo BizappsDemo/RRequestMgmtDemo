@@ -1,0 +1,110 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pv_jobskillclusters",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pv_jobskillcluster",
+    "MaxGetRowsCount": 500,
+    "Name": "Job Skill Clusters",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "pv_createdby": "createdBy",
+      "pv_createdon": "createdOn",
+      "pv_horizon": "horizon",
+      "pv_jobcode": "jobCode",
+      "pv_jobdescription": "jobDescription",
+      "pv_jobfamilycode": "jobFamilyCode",
+      "pv_jobname": "jobName",
+      "pv_jobskillcluster_AsyncOperations": "System Jobs",
+      "pv_jobskillcluster_BulkDeleteFailures": "Bulk Delete Failures",
+      "pv_jobskillcluster_DuplicateBaseRecord": "Duplicate Records (pv_jobskillcluster_DuplicateBaseRecord)",
+      "pv_jobskillcluster_DuplicateMatchingRecord": "Duplicate Records (pv_jobskillcluster_DuplicateMatchingRecord)",
+      "pv_jobskillcluster_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "pv_jobskillcluster_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "pv_jobskillcluster_ProcessSession": "Process Sessions",
+      "pv_jobskillcluster_SyncErrors": "Sync Errors",
+      "pv_jobskillclusterid": "Job Skill Cluster",
+      "pv_jsckeycode": "JSC Key Code",
+      "pv_leafskill": "Leaf Skill",
+      "pv_pv_jobskillcluster_crbcd_resourcerequest_jobskillcluster": "Resource Requests",
+      "pv_skillclusterfamily": "Skill Cluster Family",
+      "pv_skillclusterkeycode": "skillClusterKeyCode",
+      "pv_updatedby": "updatedBy",
+      "pv_updatedon": "updatedon",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Job Skill Clusters",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Job Skill Clusters (Views)",
+    "Name": "_pv_jobskillcluster_views",
+    "RelatedEntityName": "Job Skill Clusters",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "18a8519c-2532-44e4-acee-9dc49f1d2425": "Job Skill Cluster Advanced Find View",
+      "28d760d7-bd03-4bc5-85a9-a3fb940aacbd": "Active Job Skill Clusters",
+      "556dfd29-8149-4710-a278-ca8e0838d25b": "Job Skill Cluster Lookup View",
+      "9b95a714-1ad8-4261-b45a-5eb7db478649": "Job Skill Cluster Associated View",
+      "f0cb6c8c-8b3e-4290-86b2-6f708d886a96": "Inactive Job Skill Clusters"
+    }
+  },
+  {
+    "DisplayName": "Status (Job Skill Clusters)",
+    "Name": "pv_jobskillcluster_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Job Skill Clusters"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Job Skill Clusters",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Job Skill Clusters)",
+    "Name": "pv_jobskillcluster_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Job Skill Clusters"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Job Skill Clusters",
+    "Type": "OptionSetInfo"
+  }
+]

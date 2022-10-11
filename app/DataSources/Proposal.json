@@ -1,0 +1,106 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pv_proposalses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pv_proposals",
+    "MaxGetRowsCount": 500,
+    "Name": "Proposal",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "pv_cadre": "Cadre",
+      "pv_country": "Country",
+      "pv_Currency": "Currency",
+      "pv_jscdescription": "JSC Description",
+      "pv_maxefforts": "Max Effort",
+      "pv_Project": "Project",
+      "pv_proposal": "Proposal ID",
+      "pv_proposalenddate": "Proposal End Date",
+      "pv_proposals_AsyncOperations": "System Jobs",
+      "pv_proposals_BulkDeleteFailures": "Bulk Delete Failures",
+      "pv_proposals_DuplicateBaseRecord": "Duplicate Records (pv_proposals_DuplicateBaseRecord)",
+      "pv_proposals_DuplicateMatchingRecord": "Duplicate Records (pv_proposals_DuplicateMatchingRecord)",
+      "pv_proposals_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "pv_proposals_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "pv_proposals_ProcessSession": "Process Sessions",
+      "pv_proposals_SyncErrors": "Sync Errors",
+      "pv_proposalsid": "Proposal",
+      "pv_proposalstartdate": "Proposal Start Date",
+      "pv_totaleffort": "Total Effort",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Proposal",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Proposal (Views)",
+    "Name": "_pv_proposals_views",
+    "RelatedEntityName": "Proposal",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "18acb66e-68f7-4e7a-85c9-284a51d5584a": "Proposal Associated View",
+      "612f641b-c0c5-470d-b0d3-47c3685ca50c": "Proposal Lookup View",
+      "7254945c-dc9a-45a9-ab06-46e9df78a980": "Proposal Advanced Find View",
+      "be20c9bb-bd16-41ba-9583-0d593d16890a": "Inactive Proposal",
+      "d659c97d-2b6a-4b27-a143-858d50356d36": "Active Proposal"
+    }
+  },
+  {
+    "DisplayName": "Status (Proposal)",
+    "Name": "pv_proposals_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Proposal"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Proposal",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Proposal)",
+    "Name": "pv_proposals_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Proposal"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Proposal",
+    "Type": "OptionSetInfo"
+  }
+]

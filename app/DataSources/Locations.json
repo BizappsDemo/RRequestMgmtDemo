@@ -1,0 +1,115 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pv_locations",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pv_location",
+    "Name": "Locations",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "pv_city": "City",
+      "pv_country": "Country",
+      "pv_ifulfilllocation": "IfulfillLocation",
+      "pv_isactive": "IsActive",
+      "pv_isocode": "IsoCode",
+      "pv_isocodeloc": "IsoCodeLoc",
+      "pv_kostl": "Kostl",
+      "pv_ktext": "Ktext",
+      "pv_location_AsyncOperations": "System Jobs",
+      "pv_location_BulkDeleteFailures": "Bulk Delete Failures",
+      "pv_location_DuplicateBaseRecord": "Duplicate Records (pv_location_DuplicateBaseRecord)",
+      "pv_location_DuplicateMatchingRecord": "Duplicate Records (pv_location_DuplicateMatchingRecord)",
+      "pv_location_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "pv_location_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "pv_location_ProcessSession": "Process Sessions",
+      "pv_location_SyncErrors": "Sync Errors",
+      "pv_locationid": "Location",
+      "pv_loccountry": "LocCountry",
+      "pv_locid": "Location ID",
+      "pv_ltiorclient": "LtiOrClient",
+      "pv_lvflag": "LvFlag",
+      "pv_pv_location_crbcd_resourcerequest_location": "Resource Requests",
+      "pv_stand": "Stand",
+      "pv_state": "State",
+      "pv_updatedon": "UpdatedOn",
+      "pv_zbu": "Zbu",
+      "pv_zbudesc": "ZbuDesc",
+      "pv_zstbu": "Zstbu",
+      "pv_zstbudesc": "zstbudesc",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Locations",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Locations (Views)",
+    "Name": "_pv_location_views",
+    "RelatedEntityName": "Locations",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "885d2f6e-4d5b-404f-be17-1937097f8bbb": "Location Advanced Find View",
+      "cd08a787-eb44-4c73-a924-b19038f31df7": "Location Associated View",
+      "cee2c4c7-ef55-439a-924b-be8ebe633af3": "Active Locations",
+      "d5665962-2c2b-4c10-8d9f-6143554c00d8": "Location Lookup View",
+      "d6a74cf0-b7ec-42d9-936f-aa83213c229b": "Inactive Locations"
+    }
+  },
+  {
+    "DisplayName": "Status (Locations)",
+    "Name": "pv_location_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Locations"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Locations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Locations)",
+    "Name": "pv_location_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Locations"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Locations",
+    "Type": "OptionSetInfo"
+  }
+]

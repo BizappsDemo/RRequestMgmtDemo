@@ -1,0 +1,349 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crbcd_resourcerequests",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crbcd_resourcerequest",
+    "MaxGetRowsCount": 500,
+    "Name": "Resource Requests",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crbcd_name": "Name",
+      "crbcd_resourcerequest_AsyncOperations": "System Jobs",
+      "crbcd_resourcerequest_BulkDeleteFailures": "Bulk Delete Failures",
+      "crbcd_resourcerequest_DuplicateBaseRecord": "Duplicate Records (crbcd_resourcerequest_DuplicateBaseRecord)",
+      "crbcd_resourcerequest_DuplicateMatchingRecord": "Duplicate Records (crbcd_resourcerequest_DuplicateMatchingRecord)",
+      "crbcd_resourcerequest_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crbcd_resourcerequest_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crbcd_resourcerequest_ProcessSession": "Process Sessions",
+      "crbcd_resourcerequest_SyncErrors": "Sync Errors",
+      "crbcd_resourcerequestid": "Resource Request (crbcd_resourcerequestid)",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "new_careertrack": "Career Track",
+      "new_currencytype": "Currency Type",
+      "new_currencytype_base": "Currency Type (Base)",
+      "new_customername": "Customer Name",
+      "new_deliveryunit": "Delivery unit",
+      "new_interviewpanel": "Interview Panel",
+      "new_jobfamily": "Job Family",
+      "new_noofresources": "No Of Resources",
+      "new_ordertype": "Order Type",
+      "new_practiceunit": "Practice Unit",
+      "new_PSNoTobereplaced": "PS No. To be replaced",
+      "new_salaryrangepayrate": "SalaryRange/Pay Rate",
+      "new_skillclusterfamily": "Skill Cluster Family",
+      "new_skillfamily": "Skill Family",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "pv_billedtype": "Billed Type",
+      "pv_billingdetails": "Billing Details",
+      "pv_billingpositionenddatemmddyyyy": "Billing / Position End Date(mm/dd/yyyy)*",
+      "pv_billingpositionstartdatemmddyyyy": "Billing / Position Start Date(mm/dd/yyyy)",
+      "pv_clientinterview": "Client Interview",
+      "pv_clientinterviewrequirements": "Client Interview Requirements",
+      "pv_crbcd_resourcerequest_pv_proposal_ResourceRequest": "Proposals",
+      "pv_grade": "Grade",
+      "pv_job": "Job",
+      "pv_jobdetails": "Job Details",
+      "pv_jobskillcluster": "Job Skill Cluster",
+      "pv_jobtitle": "Job Title",
+      "pv_LeafSkill": "Leaf Skill",
+      "pv_location": "Location",
+      "pv_maximumexperience": "Maximum Experience",
+      "pv_minimumexperience": "Minimum Experience",
+      "pv_project": "Project",
+      "pv_reasonforrr": "Reason for RR",
+      "pv_requestdetails": "Request Details",
+      "pv_requiredfrom": "Required From",
+      "pv_resourcerequest": "Resource Request (pv_resourcerequest)",
+      "pv_SearchReportingManagerPSNo": "Search Reporting Manager PS No.",
+      "pv_skillcluster": "Skill Cluster",
+      "pv_status": "RR Status",
+      "pv_tobefilledwith": "To Be Filled With",
+      "pv_visa": "Visa",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Resource Requests",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Resource Requests (Views)",
+    "Name": "_crbcd_resourcerequest_views",
+    "RelatedEntityName": "Resource Requests",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "60599b6d-bb3a-4641-8c1f-61ae2afc61fe": "Active Resource Requests",
+      "94725b31-8e09-4fa6-b1ed-f80168c47b35": "Resource Request Associated View",
+      "c3c7cf32-9cc1-4ccb-b5b6-2606d110ad2e": "Inactive Resource Requests",
+      "e917b17d-1efd-4931-866b-5f9fb1603bbc": "Resource Request Lookup View",
+      "f6ae3242-c0e7-4a08-b804-b19afaa88242": "Resource Request Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (Resource Requests)",
+    "Name": "crbcd_resourcerequest_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Resource Requests"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Resource Requests",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Resource Requests)",
+    "Name": "crbcd_resourcerequest_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Resource Requests"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Resource Requests",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Order Type (Resource Requests)",
+    "Name": "new_crbcd_resourcerequest_new_ordertype",
+    "OptionSetInfoNameMapping": {
+      "1": "Fixed Monthly Billing",
+      "2": "Fixed Price",
+      "3": "Time & Material"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "new_ordertype",
+        "OptionSetReferenceEntityName": "Resource Requests"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "new_ordertype",
+    "RelatedEntityName": "Resource Requests",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Billed Type (Resource Requests)",
+    "Name": "pv_crbcd_resourcerequest_pv_billedtype",
+    "OptionSetInfoNameMapping": {
+      "100000000": "Buffer",
+      "100000001": "Non-Billed",
+      "100000002": "Investment",
+      "100000003": "Management Support"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pv_billedtype",
+        "OptionSetReferenceEntityName": "Resource Requests"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "pv_billedtype",
+    "RelatedEntityName": "Resource Requests",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Client Interview (Resource Requests)",
+    "Name": "pv_crbcd_resourcerequest_pv_clientinterview",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pv_clientinterview",
+        "OptionSetReferenceEntityName": "Resource Requests"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "pv_clientinterview",
+    "RelatedEntityName": "Resource Requests",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Maximum Experience (Resource Requests)",
+    "Name": "pv_crbcd_resourcerequest_pv_maximumexperience",
+    "OptionSetInfoNameMapping": {
+      "100000000": "1",
+      "100000001": "2",
+      "100000002": "3",
+      "100000003": "4",
+      "100000004": "5",
+      "100000005": "6",
+      "100000006": "7",
+      "100000007": "8",
+      "100000008": "9",
+      "100000009": "10",
+      "100000010": "11",
+      "100000011": "12",
+      "100000012": "13",
+      "100000013": "14"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pv_maximumexperience",
+        "OptionSetReferenceEntityName": "Resource Requests"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "pv_maximumexperience",
+    "RelatedEntityName": "Resource Requests",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Minimum Experience (Resource Requests)",
+    "Name": "pv_crbcd_resourcerequest_pv_minimumexperience",
+    "OptionSetInfoNameMapping": {
+      "100000000": "0",
+      "100000001": "1",
+      "100000002": "2",
+      "100000003": "3",
+      "100000004": "4",
+      "100000005": "5",
+      "100000006": "6",
+      "100000007": "7",
+      "100000008": "8",
+      "100000009": "9",
+      "100000010": "10",
+      "100000011": "11",
+      "100000012": "12"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pv_minimumexperience",
+        "OptionSetReferenceEntityName": "Resource Requests"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "pv_minimumexperience",
+    "RelatedEntityName": "Resource Requests",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Reason for RR (Resource Requests)",
+    "Name": "pv_crbcd_resourcerequest_pv_reasonforrr",
+    "OptionSetInfoNameMapping": {
+      "1": "Additional Requirements",
+      "2": "Resignation Backfill",
+      "3": "RIW Backfill",
+      "4": "Rotation Backfill",
+      "5": "Growth RR"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pv_reasonforrr",
+        "OptionSetReferenceEntityName": "Resource Requests"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "pv_reasonforrr",
+    "RelatedEntityName": "Resource Requests",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "RR Status (Resource Requests)",
+    "Name": "pv_crbcd_resourcerequest_pv_status",
+    "OptionSetInfoNameMapping": {
+      "1": "Open",
+      "2": "Proposed",
+      "3": "Approved"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pv_status",
+        "OptionSetReferenceEntityName": "Resource Requests"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "pv_status",
+    "RelatedEntityName": "Resource Requests",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "To Be Filled With (Resource Requests)",
+    "Name": "pv_crbcd_resourcerequest_pv_tobefilledwith",
+    "OptionSetInfoNameMapping": {
+      "1": "Onsite Hire",
+      "2": "Offshore Deputies"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pv_tobefilledwith",
+        "OptionSetReferenceEntityName": "Resource Requests"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "pv_tobefilledwith",
+    "RelatedEntityName": "Resource Requests",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Visa (Resource Requests)",
+    "Name": "pv_crbcd_resourcerequest_pv_visa",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pv_visa",
+        "OptionSetReferenceEntityName": "Resource Requests"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "pv_visa",
+    "RelatedEntityName": "Resource Requests",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "aaac330c-b469-447a-83a9-87de38033036": {
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-10.centralindia.logic.azure.com:443/workflows/271c4873f9044193af5a593247dc634f/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=p-YYIEWsL3wxSdGMJYzDeaziPU2zfqqUzGdzAQ2OYzI",
+      "workflowEndpoint": "/subscriptions/b745f25e-91b5-4140-9d73-93b10b1dfb1d/resourceGroups/02aa9fc118bc4798a020e01c854dd434-62be4e8d1bb147de8d419ab98d80a329/providers/Microsoft.Logic/workflows/95917dde-7c17-4521-bc2b-5b0ccf253e9a",
+      "workflowName": "95917dde-7c17-4521-bc2b-5b0ccf253e9a",
+      "workflowPath": "/subscriptions/b745f25e-91b5-4140-9d73-93b10b1dfb1d/resourceGroups/02aa9fc118bc4798a020e01c854dd434-62be4e8d1bb147de8d419ab98d80a329/providers/Microsoft.Logic/workflows/95917dde-7c17-4521-bc2b-5b0ccf253e9a"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "95917dde-7c17-4521-bc2b-5b0ccf253e9a"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "95917dde-7c17-4521-bc2b-5b0ccf253e9a"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "ClickabuttoninPowerAppstosendanemail"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "aaac330c-b469-447a-83a9-87de38033036"
+  }
+}

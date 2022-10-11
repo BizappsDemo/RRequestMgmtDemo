@@ -1,0 +1,106 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pv_leafskillmasters",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pv_leafskillmaster",
+    "MaxGetRowsCount": 500,
+    "Name": "Leaf Skill Masters",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "pv_createdby": "createdBy",
+      "pv_createdon": "createdOn",
+      "pv_leafskilldetails": "leafSkillDetails",
+      "pv_leafskillmaster_AsyncOperations": "System Jobs",
+      "pv_leafskillmaster_BulkDeleteFailures": "Bulk Delete Failures",
+      "pv_leafskillmaster_DuplicateBaseRecord": "Duplicate Records (pv_leafskillmaster_DuplicateBaseRecord)",
+      "pv_leafskillmaster_DuplicateMatchingRecord": "Duplicate Records (pv_leafskillmaster_DuplicateMatchingRecord)",
+      "pv_leafskillmaster_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "pv_leafskillmaster_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "pv_leafskillmaster_ProcessSession": "Process Sessions",
+      "pv_leafskillmaster_SyncErrors": "Sync Errors",
+      "pv_leafskillmasterid": "Leaf Skill Master",
+      "pv_pv_leafskillmaster_crbcd_resourcerequest_LeafSkill": "Resource Requests",
+      "pv_pv_leafskillmaster_pv_jobskillcluster_leafskill": "Job Skill Clusters",
+      "pv_pv_leafskillmaster_pv_resourcemasterstructure_leafskill": "Resource Master Structures",
+      "pv_skillclusterkeycode": "Skill Cluster Key Code",
+      "pv_skillfamily": "Skill Family",
+      "pv_updatedby": "updatedBy",
+      "pv_updatedon": "updatedOn",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Leaf Skill Masters",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Leaf Skill Masters (Views)",
+    "Name": "_pv_leafskillmaster_views",
+    "RelatedEntityName": "Leaf Skill Masters",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "00bdf6f6-6716-41ca-9284-9783582565bc": "Leaf Skill Master Associated View",
+      "0d3ae65c-9d47-48a0-8a32-fe7d843765c5": "Leaf Skill Master Lookup View",
+      "14563e3e-d8c6-4120-a7e2-7f3a1170d4f9": "Leaf Skill Master Advanced Find View",
+      "786e4f51-15e9-45da-9b5a-f137496a7018": "Inactive Leaf Skill Masters",
+      "d11c1365-a880-45c8-952d-c8ec3f12c186": "Active Leaf Skill Masters"
+    }
+  },
+  {
+    "DisplayName": "Status (Leaf Skill Masters)",
+    "Name": "pv_leafskillmaster_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Leaf Skill Masters"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Leaf Skill Masters",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Leaf Skill Masters)",
+    "Name": "pv_leafskillmaster_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Leaf Skill Masters"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Leaf Skill Masters",
+    "Type": "OptionSetInfo"
+  }
+]

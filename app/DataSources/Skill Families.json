@@ -1,0 +1,100 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pv_skillfamilies",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pv_skillfamily",
+    "MaxGetRowsCount": 500,
+    "Name": "Skill Families",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "pv_pv_skillfamily_pv_resourcemasterstructure_skillfamily": "Resource Master Structures",
+      "pv_skillfamily_AsyncOperations": "System Jobs",
+      "pv_skillfamily_BulkDeleteFailures": "Bulk Delete Failures",
+      "pv_skillfamily_DuplicateBaseRecord": "Duplicate Records (pv_skillfamily_DuplicateBaseRecord)",
+      "pv_skillfamily_DuplicateMatchingRecord": "Duplicate Records (pv_skillfamily_DuplicateMatchingRecord)",
+      "pv_skillfamily_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "pv_skillfamily_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "pv_skillfamily_ProcessSession": "Process Sessions",
+      "pv_skillfamily_SyncErrors": "Sync Errors",
+      "pv_skillfamilycode": "Skill Family Code",
+      "pv_skillfamilydescription": "skillFamilyDescription",
+      "pv_skillfamilyid": "Skill Family",
+      "pv_skillfamilyname": "skillFamilyName",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Skill Families",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Skill Families (Views)",
+    "Name": "_pv_skillfamily_views",
+    "RelatedEntityName": "Skill Families",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "5cad67eb-ee2a-4cfd-b08b-e2c6f2f9832c": "Active Skill Families",
+      "6c96640f-cd2d-4cd0-83a5-2670727dc17e": "Skill Family Advanced Find View",
+      "82e5af79-0666-4c03-ac5e-603ebb01e358": "Skill Family Lookup View",
+      "c9f706bb-5f0d-46e3-b92a-b96d22c28882": "Skill Family Associated View",
+      "ccbfa3f7-2cda-4ab9-81f5-370466669d8f": "Inactive Skill Families"
+    }
+  },
+  {
+    "DisplayName": "Status (Skill Families)",
+    "Name": "pv_skillfamily_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Skill Families"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Skill Families",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Skill Families)",
+    "Name": "pv_skillfamily_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Skill Families"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Skill Families",
+    "Type": "OptionSetInfo"
+  }
+]

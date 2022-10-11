@@ -1,0 +1,98 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pv_locationmasters",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pv_locationmaster",
+    "MaxGetRowsCount": 500,
+    "Name": "Location Masters",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "pv_location": "Location",
+      "pv_locationmaster_AsyncOperations": "System Jobs",
+      "pv_locationmaster_BulkDeleteFailures": "Bulk Delete Failures",
+      "pv_locationmaster_DuplicateBaseRecord": "Duplicate Records (pv_locationmaster_DuplicateBaseRecord)",
+      "pv_locationmaster_DuplicateMatchingRecord": "Duplicate Records (pv_locationmaster_DuplicateMatchingRecord)",
+      "pv_locationmaster_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "pv_locationmaster_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "pv_locationmaster_ProcessSession": "Process Sessions",
+      "pv_locationmaster_SyncErrors": "Sync Errors",
+      "pv_locationmasterid": "Location Master",
+      "pv_pv_locationmaster_crbcd_resourcerequest_location": "Resource Requests",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Location Masters",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Location Masters (Views)",
+    "Name": "_pv_locationmaster_views",
+    "RelatedEntityName": "Location Masters",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "12073c66-f757-43b8-8006-ec5ca4f2afc9": "Location Master Associated View",
+      "60027c9c-96be-41c6-8362-227630227357": "Location Master Advanced Find View",
+      "653068f0-3fd6-4daa-93ce-1c3ff8803522": "Inactive Location Masters",
+      "80c43d75-b5f1-4e53-8087-89bb96376449": "Location Master Lookup View",
+      "9c6bc8f4-4d8a-4c34-b706-a093e8afd4cc": "Active Location Masters"
+    }
+  },
+  {
+    "DisplayName": "Status (Location Masters)",
+    "Name": "pv_locationmaster_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Location Masters"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Location Masters",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Location Masters)",
+    "Name": "pv_locationmaster_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Location Masters"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Location Masters",
+    "Type": "OptionSetInfo"
+  }
+]

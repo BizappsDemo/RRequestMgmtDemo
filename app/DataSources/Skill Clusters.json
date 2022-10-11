@@ -1,0 +1,108 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pv_skillclusters",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pv_skillcluster",
+    "MaxGetRowsCount": 500,
+    "Name": "Skill Clusters",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "pv_createdby": "createdBy",
+      "pv_createdon": "createdOn",
+      "pv_pv_skillcluster_crbcd_resourcerequest_skillcluster": "Resource Requests",
+      "pv_pv_skillcluster_pv_resourcemasterstructure_skillcluster": "Resource Master Structures",
+      "pv_skillcluster_AsyncOperations": "System Jobs",
+      "pv_skillcluster_BulkDeleteFailures": "Bulk Delete Failures",
+      "pv_skillcluster_DuplicateBaseRecord": "Duplicate Records (pv_skillcluster_DuplicateBaseRecord)",
+      "pv_skillcluster_DuplicateMatchingRecord": "Duplicate Records (pv_skillcluster_DuplicateMatchingRecord)",
+      "pv_skillcluster_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "pv_skillcluster_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "pv_skillcluster_ProcessSession": "Process Sessions",
+      "pv_skillcluster_SyncErrors": "Sync Errors",
+      "pv_skillclustercode": "Skill Cluster Code",
+      "pv_skillclusterdescription": "skillClusterDescription",
+      "pv_skillclusterid": "Skill Cluster",
+      "pv_skillclusterkeycodc": "skillClusterKeyCode",
+      "pv_skillclustername": "skillClusterName",
+      "pv_skillfamily": "Skill Family",
+      "pv_skillfamilycode": "skillFamilyCode",
+      "pv_updatedby": "updatedBy",
+      "pv_updatedon": "updatedOn",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Skill Clusters",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Skill Clusters (Views)",
+    "Name": "_pv_skillcluster_views",
+    "RelatedEntityName": "Skill Clusters",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1a06fa46-149f-4edc-9d32-81bc6c12b7ea": "Skill Cluster Lookup View",
+      "1a41d2f8-ea5b-44fa-9f47-0c6cee215a64": "Inactive Skill Clusters",
+      "22263a03-08f6-4f7d-a9c2-91ee708b5139": "Skill Cluster Advanced Find View",
+      "9972b16c-67e0-40c4-8751-1e764681e8b5": "Active Skill Clusters",
+      "e7e56c77-1f86-4fd1-a644-024c409b9b71": "Skill Cluster Associated View"
+    }
+  },
+  {
+    "DisplayName": "Status (Skill Clusters)",
+    "Name": "pv_skillcluster_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Skill Clusters"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Skill Clusters",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Skill Clusters)",
+    "Name": "pv_skillcluster_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Skill Clusters"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Skill Clusters",
+    "Type": "OptionSetInfo"
+  }
+]

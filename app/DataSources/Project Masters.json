@@ -1,0 +1,123 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pv_projectmasters",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pv_projectmaster",
+    "MaxGetRowsCount": 500,
+    "Name": "Project Masters",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "organizationid": "Organization Id",
+      "overriddencreatedon": "Record Created On",
+      "pv_accountid": "Account ID",
+      "pv_actualenddate": "Actual End Date",
+      "pv_actualstartdate": "Actual Start Date",
+      "pv_bookingsbu": "Booking SBU",
+      "pv_bookingvercl": "Booking Vercl",
+      "pv_compassindc": "Compass Indc",
+      "pv_contractcurrency": "Contract Currency",
+      "pv_contractid": "Contract ID",
+      "pv_custname": "Cust Name",
+      "pv_customerid": "Customer ID",
+      "pv_deliverysbu": "Delivery SBU",
+      "pv_deliveryunit": "Delivery Unit",
+      "pv_dmid": "DM ID",
+      "pv_enddate": "End Date",
+      "pv_modifieddatetime": "ModifiedDateTime",
+      "pv_otoption": "OT Option",
+      "pv_pmid": "PM ID",
+      "pv_pmname": "PM Name",
+      "pv_practiceunit": "Practice Unit",
+      "pv_profitcenter": "ProfitCenter",
+      "pv_projectid": "Project ID",
+      "pv_projectmaster_AsyncOperations": "System Jobs",
+      "pv_projectmaster_BulkDeleteFailures": "Bulk Delete Failures",
+      "pv_projectmaster_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "pv_projectmaster_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "pv_projectmaster_ProcessSession": "Process Sessions",
+      "pv_projectmaster_SyncErrors": "Sync Errors",
+      "pv_projectmasterid": "Project Master",
+      "pv_projectstatus": "Project Status",
+      "pv_projname": "Proj Name",
+      "pv_projtype": "Proj Type",
+      "pv_pv_projectmaster_crbcd_resourcerequest_project": "Resource Requests",
+      "pv_pv_projectmaster_pv_proposals_Project": "Proposal",
+      "pv_pv_projectmaster_pv_resourcemasterstructure_project": "Resource Master Structures",
+      "pv_sbstatus": "ESB Status",
+      "pv_sbu": "SBU",
+      "pv_startdate": "Start Date",
+      "pv_subopprtunity": "SUB Opprtunity",
+      "pv_worktype": "Work Type",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Project Masters",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Project Masters (Views)",
+    "Name": "_pv_projectmaster_views",
+    "RelatedEntityName": "Project Masters",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "6155e822-4e5a-43c4-98b0-0fb36b19f057": "Project Master Associated View",
+      "69a4f992-447a-4fb6-a474-e2fdd49b6c04": "Project Master Advanced Find View",
+      "942c8656-c2ef-407f-ad93-68eb923be851": "Active Project Masters",
+      "a11dfb75-b6b3-42da-810a-5f4b068aeca3": "Inactive Project Masters",
+      "f2dc2fd9-81c9-4d83-bfdc-3e38b22ddbb4": "Project Master Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (Project Masters)",
+    "Name": "pv_projectmaster_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Project Masters"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Project Masters",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Project Masters)",
+    "Name": "pv_projectmaster_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Project Masters"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Project Masters",
+    "Type": "OptionSetInfo"
+  }
+]
